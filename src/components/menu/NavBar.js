@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Right from "./Right";
-import { Button, Drawer } from "antd";
+import {  Drawer } from "antd";
 import { AlignRightOutlined } from "@ant-design/icons";
 
 export default function NavBar() {

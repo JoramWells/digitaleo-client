@@ -7,8 +7,7 @@ function App() {
     <Router>
       <NavBar/>
       <Switch>
-        <Route path="/" exact component={HomeScreen} />
-        
+        <Route path="/" exact component={HomeScreen} />     
       </Switch>
 
     </Router>
