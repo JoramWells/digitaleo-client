@@ -1,5 +1,6 @@
-import { Menu } from 'antd'
 import React from 'react'
+import { Menu } from 'antd'
+import {Link} from 'react-router-dom'
 
 const {SubMenu} = Menu
 export default function Right(props) {
@@ -19,10 +20,16 @@ export default function Right(props) {
 
             <SubMenu title="Our services">
                 <Menu.Item style={{margin:"0"}}>
+                    <Link to="/services">
                     Search Engine Optimazation
+                    </Link>
+                    
                 </Menu.Item>
                 <Menu.Item style={{margin:"0"}}>
+                    <Link to="/services">
                     ICT consultation
+                    </Link>
+                    
                 </Menu.Item>
             </SubMenu>
             <Menu.Item>
