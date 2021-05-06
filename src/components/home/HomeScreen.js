@@ -7,23 +7,23 @@ import { Card, Row, Col, Button, Divider } from "antd";
 import seo from "../../images/search_engines.svg";
 import cloud from "../../images/cloud_hosting.svg";
 import analytics from "../../images/data_processing.svg";
-import programme from '../../images/programme.jpg'
+import programming from '../../images/programming.svg'
 
 export default class HomeScreen extends Component {
   render() {
     return (
       <>
-        <header style={{ padding: "1rem", backgroundColor:"#1890ff" }}>
-          <h1 style={{color:"rgb(40,44,53)", textAlign:"center", marginTop:"1.5rem"}}>Digitaleo, Inc</h1>
+        <header style={{ padding: "1rem" }}>
+          <h1 style={{color:"rgb(40,44,53)", textAlign:"center"}}>Digitaleo, Inc</h1>
           <Row
             justify="space-around"
             align="middle"
             style={{ marginTop: "2rem" }}
           >
             <Col>
-            <img src={programme} alt="programming" style={{width:"250px", borderRadius:"5px"}} />
+            <img src={programming} alt="programming" style={{width:"250px"}} />
             </Col>
-            <Col md={12}>
+            <Col span={12}>
             <h2>
               At digitaleo, we are continously improving how uses interact and
               manage your products
