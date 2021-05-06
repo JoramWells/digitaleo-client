@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 import { ArrowRightOutlined, RightOutlined } from "@ant-design/icons";
 import { Card, Row, Col, Button, Divider } from "antd";
 // import browsing from "../../images/browsing.svg";
@@ -120,7 +121,7 @@ export default class HomeScreen extends Component {
                   Sed quibusdam recusandae alias error harum maxime adipisci
                   amet laborum. Perspiciatis minima nesciunt dolorem! Officiis
                   iure rerum voluptates a cumque velit quibusdam sed amet
-                  tempora. <a href="/">Know more<RightOutlined style={{fontSize:".6rem"}}/></a> 
+                  tempora. <Link to="/services">Know more<RightOutlined style={{fontSize:".6rem"}}/></Link> 
                 </p>
               </Col>
             </Row>
@@ -134,7 +135,7 @@ export default class HomeScreen extends Component {
                 Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus
                 enim commodi iusto libero magni deleniti quod quam consequuntur!
                 Commodi minima excepturi repudiandae velit hic maxime
-                doloremque.
+                doloremque. <Link to="/services">Know more<RightOutlined style={{fontSize:".6rem"}}/></Link> 
               </p>
             </Col>
             <Col>
@@ -159,7 +160,7 @@ export default class HomeScreen extends Component {
                 Quaerat provident commodi consectetur veniam similique ad earum
                 omnis ipsum saepe, voluptas, hic voluptates pariatur est
                 explicabo fugiat, dolorum eligendi quam cupiditate excepturi
-                mollitia maiores labore suscipit quas? Nulla, placeat.
+                mollitia maiores labore suscipit quas? Nulla, placeat. <Link to="/services">Know more<RightOutlined style={{fontSize:".6rem"}}/></Link> 
               </p>
             </Col>
           </Row>

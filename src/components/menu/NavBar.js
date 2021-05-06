@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Right from "./Right";
 import {  Drawer } from "antd";
 import { AlignRightOutlined } from "@ant-design/icons";
+import {Link} from 'react-router-dom'
 
 export default function NavBar() {
   const [visible, setVisible] = useState(false);
@@ -14,7 +15,7 @@ export default function NavBar() {
   return (
     <nav className="menu">
       <div className="menu__logo">
-        <a href="/">Logo</a>
+        <Link to="/">Logo</Link>
       </div>
       <div className="menu__container">
         <div className="menu_rigth" style={{ marginTop: ".7rem" }}>
