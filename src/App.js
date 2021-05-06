@@ -1,4 +1,5 @@
-import {BrowserRouter as Router,Switch} from 'react-router-dom'
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import HomeScreen from './components/home/HomeScreen';
 import NavBar from './components/menu/NavBar';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <Router>
       <NavBar/>
       <Switch>
+        <Route path="/" exact component={HomeScreen} />
         
       </Switch>
 
