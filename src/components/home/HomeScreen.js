@@ -1,4 +1,4 @@
-import { Card, Row,Col } from "antd";
+import { Card, Row, Col } from "antd";
 import React from "react";
 
 export default function HomeScreen() {
@@ -17,29 +17,46 @@ export default function HomeScreen() {
         </Row>
       </header>
       <main>
-          <div>
+        <div style={{width:"95%"}}>
           <Row justify="space-around" align="middle">
-              <h2>Our Insights</h2>
-              
+            <h2>Our Insights</h2>
           </Row>
-          <h3 style={{textAlign:"center"}}>Our products</h3>
-          <Row justify="space-around" align="middle">
-              <Col>
-              <Card>
-                  Mobile Apps
+          <h3 style={{ textAlign: "center" }}>Our products</h3>
+          <Row justify="space-around" gutter={[5,16]} align="middle">
+            <Col md={12} sm={12}>
+              <Card >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime mollitia, molestiae quas vel sint commodi repudiandae
+                  consequuntur voluptatum laborum numquam blanditiis harum
+                  quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                  eaque rerum! Provident similique accusantium nemo autem.
+                  Veritatis obcaecati tenetur iure eius earum ut molestias
+                  architecto voluptate aliquam nihil, eveniet aliquid culpa
+                  officia aut! Impedit sit sunt quaerat, odit,
+                </p>
               </Card>
-              </Col>
-              <Col>
+            </Col>
+            <Col md={12} sm={12}>
               <Card>
-                  Web App
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime mollitia, molestiae quas vel sint commodi repudiandae
+                  consequuntur voluptatum laborum numquam blanditiis harum
+                  quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                  eaque rerum! Provident similique accusantium nemo autem.
+                  Veritatis obcaecati tenetur iure eius earum ut molestias
+                  architecto voluptate aliquam nihil, eveniet aliquid culpa
+                  officia aut! Impedit sit sunt quaerat, odit,
+                </p>
               </Card>
-              </Col>
+            </Col>
           </Row>
-          </div>
+        </div>
 
-          <Row justify="space-around" align="middle">
-              <h2>Company</h2>
-          </Row>
+        <Row justify="space-around" align="middle">
+          <h2>Company</h2>
+        </Row>
       </main>
     </>
   );
