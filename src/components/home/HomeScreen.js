@@ -1,10 +1,11 @@
-import { Card, Row, Col } from "antd";
+import { ArrowRightOutlined } from "@ant-design/icons";
+import { Card, Row, Col, Button } from "antd";
 import React from "react";
 
 export default function HomeScreen() {
   return (
     <>
-      <header>
+      <header style={{padding:"1rem"}}>
         <Row
           justify="space-around"
           align="middle"
@@ -15,16 +16,24 @@ export default function HomeScreen() {
             shapping our world.
           </h2>
         </Row>
+        <p style={{textAlign:"center",color:"grey" }}>
+        Reprehenderit,
+quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+recusandae alias error harum maxime adipisci amet laborum.
+        </p>
+        <Button icon={<ArrowRightOutlined/>} style={{display:"block", margin:"auto"}}>Learn More</Button>
       </header>
       <main>
-        <div style={{width:"95%"}}>
+        <div style={{padding:"1rem"}}>
           <Row justify="space-around" align="middle">
             <h2>Our Insights</h2>
           </Row>
           <h3 style={{ textAlign: "center" }}>Our products</h3>
-          <Row justify="space-around" gutter={[5,16]} align="middle">
+          <Row justify="space-around" gutter={[16,16]} align="middle">
             <Col md={12} sm={12}>
-              <Card >
+              <Card style={{width:"inherit"}}>
+                <h3>Mobile App developmet</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maxime mollitia, molestiae quas vel sint commodi repudiandae
@@ -39,6 +48,7 @@ export default function HomeScreen() {
             </Col>
             <Col md={12} sm={12}>
               <Card>
+                <h3>Web Applications</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maxime mollitia, molestiae quas vel sint commodi repudiandae
