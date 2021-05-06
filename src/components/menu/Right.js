@@ -2,9 +2,9 @@ import { Menu } from 'antd'
 import React from 'react'
 
 const {SubMenu} = Menu
-export default function Right() {
+export default function Right(props) {
     return (
-        <Menu mode="horizontal">
+        <Menu mode={props.mode}>
             <SubMenu title="Our products">
                 <Menu.Item style={{margin:"0"}}>
                     Mobile Apps
