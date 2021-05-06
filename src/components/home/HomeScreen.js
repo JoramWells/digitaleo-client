@@ -1,6 +1,12 @@
 import React, { Component } from "react";
-import { ArrowRightOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined, RightOutlined } from "@ant-design/icons";
 import { Card, Row, Col, Button, Divider } from "antd";
+// import browsing from "../../images/browsing.svg";
+// import inspection from "../../images/code_inspection.svg";
+// import review from "../../images/Code_review.svg";
+import seo from "../../images/search_engines.svg";
+import cloud from "../../images/cloud_hosting.svg";
+import analytics from "../../images/data_processing.svg";
 
 export default class HomeScreen extends Component {
   render() {
@@ -84,42 +90,65 @@ export default class HomeScreen extends Component {
               </Col>
             </Row>
           </div>
+          <div style={{ height: "350px" }}>
+            <Row justify="space-around" align="middle">
+              <Col style={{ width: "50%" }}>
+                <Divider>
+                  <h2>OUR SERVICES</h2>
+                </Divider>
+              </Col>
+            </Row>
+            <Row justify="center">
+              <Col style={{padding:"1rem"}}>
+                                            <img
+                  src={cloud}
+                  alt="cloud_hosting"
+                  style={{ width: "200px" }}
+                />  
+              </Col>
+              <Col span={12} >
 
-          <Row justify="space-around" align="middle">
-            <Col style={{ width: "50%" }}>
-              <Divider>
-                <h2>OUR SERVICES</h2>
-              </Divider>
-            </Col>
-          </Row>
-          <Row justify="space-around" align="middle">
-            <Col span={12}>
-              <h3>Cloud Services</h3>
-              <Card>
-                <p>
+                <h3>Cloud Services</h3>
+                <p style={{color:"grey"}}>
                   Sed quibusdam recusandae alias error harum maxime adipisci
                   amet laborum. Perspiciatis minima nesciunt dolorem! Officiis
                   iure rerum voluptates a cumque velit quibusdam sed amet
-                  tempora.
+                  tempora. <a href="/">Know more<RightOutlined style={{fontSize:".6rem"}}/></a> 
                 </p>
-              </Card>
-            </Col>
-          </Row>
-          <Row justify="space-around" align="middle">
+              </Col>
+            </Row>
+          </div>
+
+          <Row justify="center" align="middle">
             <Col span={12}>
+                          
               <h3>Data Analytics</h3>
-              <p>
+              <p style={{color:"grey"}}>
                 Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus
                 enim commodi iusto libero magni deleniti quod quam consequuntur!
                 Commodi minima excepturi repudiandae velit hic maxime
                 doloremque.
               </p>
             </Col>
+            <Col>
+             <img
+                src={analytics}
+                alt="inspection.jpg"
+                style={{ width: "200px" }}
+              /> 
+            </Col>
           </Row>
-          <Row justify="space-around" align="middle">
+          <Row justify="center" align="middle">
+            <Col style={{padding:"1rem"}}>
+              <img
+                src={seo}
+                alt="search_engines.jpg"
+                style={{ width: "200px" }}
+              />
+            </Col>
             <Col span={12}>
               <h3>SEO</h3>
-              <p>
+              <p style={{color:"grey"}}>
                 Quaerat provident commodi consectetur veniam similique ad earum
                 omnis ipsum saepe, voluptas, hic voluptates pariatur est
                 explicabo fugiat, dolorum eligendi quam cupiditate excepturi
@@ -129,7 +158,7 @@ export default class HomeScreen extends Component {
           </Row>
           <div style={{ height: "350px" }}>
             <Row justify="space-around" align="middle">
-              <Col style={{width:"50%"}}>
+              <Col style={{ width: "50%" }}>
                 <Divider>
                   <h2>LEARN HOW </h2>
                 </Divider>
@@ -168,24 +197,20 @@ export default class HomeScreen extends Component {
               </Col>
             </Row>
           </div>
-          <div style={{height:"200px"}}>
+          <div style={{ height: "200px" }}>
             <Row justify="space-around" align="middle">
-              <Col style={{width:"50%"}}>
-                <Divider>
-              COLLABORATORS
-
-                </Divider>
+              <Col style={{ width: "50%" }}>
+                <Divider>COLLABORATORS</Divider>
               </Col>
             </Row>
             <Row justify="space-around" align="middle">
               <Col>Safaricom</Col>
               <Col>Konza City</Col>
               <Col>Zalego</Col>
-
             </Row>
           </div>
         </main>
-        <footer style={{ height: "200px", padding:"2rem" }}>
+        <footer style={{ height: "200px", padding: "2rem" }}>
           <Row justify="space-around" align="middle">
             <Col>links</Col>
             <Col>products</Col>
