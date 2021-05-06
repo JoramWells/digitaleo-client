@@ -12,13 +12,14 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <>
-        <header style={{ padding: "1rem", height: "250px" }}>
+        <header style={{ padding: "1rem" }}>
+          <h1 style={{color:"rgb(40,44,53)", textAlign:"center"}}>Digitaleo, Inc</h1>
           <Row
             justify="space-around"
             align="middle"
             style={{ marginTop: "2rem" }}
           >
-            <h1>We are a Software Development Company</h1>
+            
             <h2>
               At digitaleo, we are continously improving how uses interact and
               manage your products
@@ -41,15 +42,15 @@ export default class HomeScreen extends Component {
           </Button>
         </header>
         <main>
-          <div style={{ padding: "1rem", height: "450px" }}>
-            <Row justify="space-around" align="middle">
+          <div style={{ padding: "1rem"}}>
+            <Row justify="space-around" align="middle" >
               <Col style={{ width: "50%" }}>
                 <Divider>
-                  <h2>OUR PRODUCTS</h2>
+                  <h2 style={{color:"rgb(40,44,53)"}}>OUR PRODUCTS</h2>
                 </Divider>
               </Col>
             </Row>
-            <Row justify="space-around" gutter={[16, 16]} align="middle">
+            <Row justify="space-around" gutter={[16,16]} align="middle">
               <Col md={12} sm={12}>
                 <Card
                   style={{
@@ -90,11 +91,11 @@ export default class HomeScreen extends Component {
               </Col>
             </Row>
           </div>
-          <div style={{ height: "350px" }}>
+          <div>
             <Row justify="space-around" align="middle">
               <Col style={{ width: "50%" }}>
                 <Divider>
-                  <h2>OUR SERVICES</h2>
+                  <h2 style={{color:"rgb(40,44,53)"}}>OUR SERVICES</h2>
                 </Divider>
               </Col>
             </Row>
@@ -160,16 +161,17 @@ export default class HomeScreen extends Component {
             <Row justify="space-around" align="middle">
               <Col style={{ width: "50%" }}>
                 <Divider>
-                  <h2>LEARN HOW </h2>
+                  <h2 style={{color:"rgb(40,44,53)"}}>LEARN HOW </h2>
                 </Divider>
               </Col>
             </Row>
-            <Row justify="space-around" align="middle">
+            <Row justify="center" align="middle">
               <p>
                 Learn how we are transforming and helping business and
                 organizations in Kenya and around the cloud.
               </p>
             </Row>
+
           </div>
           <div style={{ height: "350px" }}>
             <Row justify="space-around" align="middle">
