@@ -12,9 +12,9 @@ export default function NavBar() {
     setVisible(false);
   }
   return (
-    <nav className="menu">
+    <nav className="menu" style={{backgroundColor:"#1890ff", position:"static", top:"0", width:"100%", zIndex:"1"}}>
       <div className="menu__logo">
-        <a href="/">Logo</a>
+        <a href="/" style={{color:"white"}}>LOGO</a>
       </div>
       <div className="menu__container">
         <div className="menu_rigth" style={{ marginTop: ".7rem" }}>

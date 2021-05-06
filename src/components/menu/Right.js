@@ -4,10 +4,10 @@ import React from 'react'
 const {SubMenu} = Menu
 export default function Right(props) {
     return (
-        <Menu mode={props.mode}>
-            <SubMenu title="Our products">
+        <Menu mode={props.mode} style={{backgroundColor:"#1890ff"}}>
+            <SubMenu title="Our products" style={{fontWeight:"bold"}}>
                 <Menu.Item style={{margin:"0"}}>
-                    Mobile Apps
+                    <b>Mobile Apps</b>
                 </Menu.Item>
                 <Menu.Item style={{margin:"0"}}>
                     Web Apps

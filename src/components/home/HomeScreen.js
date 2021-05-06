@@ -13,8 +13,8 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <>
-        <header style={{ padding: "1rem", backgroundColor:"rgb(15,82,186)" }}>
-          <h1 style={{color:"rgb(40,44,53)", textAlign:"center"}}>Digitaleo, Inc</h1>
+        <header style={{ padding: "1rem", backgroundColor:"#1890ff" }}>
+          <h1 style={{color:"rgb(40,44,53)", textAlign:"center", marginTop:"1.5rem"}}>Digitaleo, Inc</h1>
           <Row
             justify="space-around"
             align="middle"
@@ -23,7 +23,7 @@ export default class HomeScreen extends Component {
             <Col>
             <img src={programme} alt="programming" style={{width:"250px", borderRadius:"5px"}} />
             </Col>
-            <Col span={12}>
+            <Col md={12}>
             <h2>
               At digitaleo, we are continously improving how uses interact and
               manage your products
