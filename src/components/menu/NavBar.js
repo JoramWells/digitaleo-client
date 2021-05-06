@@ -7,8 +7,8 @@ export default function NavBar() {
             <div className="menu__logo">
                 <a href="/">Logo</a>
             </div>
-            <div className="menu__container">
-                <div className="menu_rigth">
+            <div className="menu__container" >
+                <div className="menu_rigth" style={{marginTop:".7rem"}}>
                     <Right/>
                 </div>
             </div>
