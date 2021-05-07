@@ -15,13 +15,12 @@ class Footer extends Component {
     return (
       <footer
         style={{
-          height: "200px",
-          padding: "2rem",
+          padding: "1rem",
           backgroundColor: "#434343",
           color: "white",
         }}
       >
-        <Row justify="space-around" align="middle">
+        <Row justify="space-around" align="middle" gutter={[16,16]}>
           <Col style={{ color: "white" }}>
             <h4 style={{ color: "white" }}>Social Links</h4>
             <YoutubeFilled
