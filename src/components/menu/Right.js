@@ -6,19 +6,16 @@ const {SubMenu} = Menu
 export default function Right(props) {
     return (
         <Menu mode={props.mode} style={{backgroundColor:"#434343"}}>
-            <SubMenu title="Our products">
+            <SubMenu title="Our Products" style={{fontSize:"1rem", color:"#bae7ff"}}>
                 <Menu.Item style={{margin:"0"}}>
                     Mobile Apps
                 </Menu.Item>
                 <Menu.Item style={{margin:"0"}}>
                     Web Apps
                 </Menu.Item>
-                <Menu.Item style={{margin:"0"}}>
-                    Data Analytics
-                </Menu.Item>
             </SubMenu>
 
-            <SubMenu title="Our services">
+            <SubMenu title="Our Services" style={{fontSize:"1rem", color:"#bae7ff"}}>
                 <Menu.Item style={{margin:"0"}}>
                     <Link to="/services">
                     Search Engine Optimazation
@@ -32,8 +29,8 @@ export default function Right(props) {
                     
                 </Menu.Item>
             </SubMenu>
-            <Menu.Item>
-                Contact us
+            <Menu.Item style={{fontSize:"1rem", color:"#bae7ff"}}>
+                Contact Us
             </Menu.Item>
 
         </Menu>

@@ -15,7 +15,7 @@ export default class HomeScreen extends Component {
     return (
       <>
         <header style={{ padding: "1rem", backgroundColor:"#434343" }}>
-          <h1 style={{ color: "rgb(40,44,53)", textAlign: "center" }}>
+          <h1 style={{ color: "white", textAlign: "center" }}>
             Digitaleo, Inc
           </h1>
           <Row
@@ -27,16 +27,16 @@ export default class HomeScreen extends Component {
               <img
                 src={programming}
                 alt="programming"
-                style={{ width: "250px" }}
+                style={{ width: "200px" }}
               />
             </Col>
             <Col span={12}>
-              <h2>
+              {/* <h2>
                 At digitaleo, we are continously improving how uses interact and
                 manage your products
-              </h2>
+              </h2> */}
               <div style={{ width: "85%" }}>
-                <p style={{ textAlign: "center", color: "grey" }}>
+                <p style={{color: "grey", fontSize:"1rem" }}>
                   Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa
                   laudantium molestias eos sapiente officiis modi at sunt
                   excepturi expedita sint? Sed quibusdam recusandae alias error
