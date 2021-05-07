@@ -103,7 +103,7 @@ export default class HomeScreen extends Component {
                     eaque rerum! Provident similique accusantium nemo autem.
                     Veritatis obcaecati tenetur iure eius earum ut molestias
                     architecto voluptate aliquam nihil, eveniet aliquid culpa
-                    officia aut! Impedit sit sunt quaerat, odit <Link to="/website-developmet"> learn more
+                    officia aut! Impedit sit sunt quaerat, odit <Link to="/website"> learn more
                     <RightOutlined style={{ fontSize: ".6rem" }} />
 
                     </Link>

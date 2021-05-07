@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={HomeScreen} /> 
         <Route path="/services" exact component={Services} />
-        <Route path="/website-development" exact component={WebApplications} />    
+        <Route path="/website" exact component={WebApplications} />    
       </Switch>
 
     </Router>
