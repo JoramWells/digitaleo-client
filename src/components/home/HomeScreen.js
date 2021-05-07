@@ -7,14 +7,13 @@ import { Card, Row, Col, Button, Divider } from "antd";
 // import review from "../../images/Code_review.svg";
 import seo from "../../images/search_engines.svg";
 import cloud from "../../images/cloud_hosting.svg";
-import analytics from "../../images/data_processing.svg";
 import programming from "../../images/programming.svg";
 
 export default class HomeScreen extends Component {
   render() {
     return (
       <>
-        <header style={{ padding: "1rem", backgroundColor:"#434343" }}>
+        <header style={{ paddingBottom: "1rem", backgroundColor: "#434343" }}>
           <h1 style={{ color: "white", textAlign: "center" }}>
             Digitaleo, Inc
           </h1>
@@ -27,16 +26,18 @@ export default class HomeScreen extends Component {
               <img
                 src={programming}
                 alt="programming"
-                style={{ width: "200px" }}
+                style={{ width: "250px" }}
               />
             </Col>
-            <Col span={12}>
+            <Col span={18}>
               {/* <h2>
                 At digitaleo, we are continously improving how uses interact and
                 manage your products
               </h2> */}
-              <div style={{ width: "85%" }}>
-                <p style={{color: "grey", fontSize:"1rem" }}>
+              <div>
+                <p
+                  style={{ color: "grey", fontSize: "1rem", marginTop: "1rem" }}
+                >
                   Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa
                   laudantium molestias eos sapiente officiis modi at sunt
                   excepturi expedita sint? Sed quibusdam recusandae alias error
@@ -48,7 +49,12 @@ export default class HomeScreen extends Component {
 
           <Button
             icon={<ArrowRightOutlined />}
-            style={{ display: "block", margin: "auto" }}
+            style={{
+              display: "block",
+              margin: "auto",
+              border: "0",
+              borderRadius: "5px",
+            }}
           >
             Learn More
           </Button>
@@ -56,7 +62,7 @@ export default class HomeScreen extends Component {
         <main>
           <div style={{ padding: "1rem" }}>
             <Row justify="space-around" align="middle">
-              <Col style={{ width: "50%" }}>
+              <Col style={{ width: "85%" }}>
                 <Divider>
                   <h2 style={{ color: "rgb(40,44,53)" }}>OUR PRODUCTS</h2>
                 </Divider>
@@ -127,10 +133,10 @@ export default class HomeScreen extends Component {
                 <img
                   src={cloud}
                   alt="cloud_hosting"
-                  style={{ width: "200px" }}
+                  style={{ width: "250px" }}
                 />
               </Col>
-              <Col span={12}>
+              <Col span={18} style={{padding:"1rem"}}>
                 <h3>Cloud Services</h3>
                 <p style={{ color: "grey" }}>
                   Sed quibusdam recusandae alias error harum maxime adipisci
@@ -145,38 +151,15 @@ export default class HomeScreen extends Component {
               </Col>
             </Row>
           </div>
-
-          <Row justify="center" align="middle">
-            <Col span={12}>
-              <h3>Data Analytics</h3>
-              <p style={{ color: "grey" }}>
-                Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus
-                enim commodi iusto libero magni deleniti quod quam consequuntur!
-                Commodi minima excepturi repudiandae velit hic maxime
-                doloremque.{" "}
-                <Link to="/services">
-                  Know more
-                  <RightOutlined style={{ fontSize: ".6rem" }} />
-                </Link>
-              </p>
-            </Col>
-            <Col>
-              <img
-                src={analytics}
-                alt="inspection.jpg"
-                style={{ width: "200px" }}
-              />
-            </Col>
-          </Row>
           <Row justify="center" align="middle">
             <Col style={{ padding: "1rem" }}>
               <img
                 src={seo}
                 alt="search_engines.jpg"
-                style={{ width: "200px" }}
+                style={{ width: "250px" }}
               />
             </Col>
-            <Col span={12}>
+            <Col span={18}>
               <h3>SEO</h3>
               <p style={{ color: "grey" }}>
                 Quaerat provident commodi consectetur veniam similique ad earum
@@ -199,10 +182,12 @@ export default class HomeScreen extends Component {
               </Col>
             </Row>
             <Row justify="center" align="middle">
-              <p>
-                Learn how we are transforming and helping business and
-                organizations in Kenya and around the cloud.
-              </p>
+              <Col span={18}>
+                <p>
+                  Learn how we are transforming and helping business and
+                  organizations in Kenya and around the cloud.
+                </p>
+              </Col>
             </Row>
           </div>
         </main>
