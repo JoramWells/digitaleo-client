@@ -203,52 +203,9 @@ export default class HomeScreen extends Component {
               </p>
             </Row>
           </div>
-          <div style={{ height: "350px" }}>
-            <Row justify="space-around" align="middle">
-              <Col style={{ width: "50%" }}>
-                <Divider>
-                  <h2>OUR CLIENTS</h2>
-                </Divider>
-              </Col>
-            </Row>
-            <Row justify="space-around" align="middle">
-              <Col>
-                img1
-                <br />
-                testimonies
-              </Col>
-              <Col>
-                img2
-                <br />
-                testimonies2
-              </Col>
-              <Col>
-                img3
-                <br />
-                testimonies3
-              </Col>
-            </Row>
-          </div>
-          <div style={{ height: "200px" }}>
-            <Row justify="space-around" align="middle">
-              <Col style={{ width: "50%" }}>
-                <Divider>COLLABORATORS</Divider>
-              </Col>
-            </Row>
-            <Row justify="space-around" align="middle">
-              <Col>Safaricom</Col>
-              <Col>Konza City</Col>
-              <Col>Zalego</Col>
-            </Row>
-          </div>
+
         </main>
-        <footer style={{ height: "200px", padding: "2rem" }}>
-          <Row justify="space-around" align="middle">
-            <Col>links</Col>
-            <Col>products</Col>
-            <Col>more</Col>
-          </Row>
-        </footer>
+
       </>
     );
   }
