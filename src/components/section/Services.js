@@ -47,6 +47,45 @@ export default class Services extends Component {
             </Card>
           </Col>
         </Row>
+        <Row justify="center">
+          <Col md={12}>
+            <h2>3. E-commerce Search Engines</h2>
+            <Card>
+              <p>
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
+              </p>
+            </Card>
+          </Col>
+        </Row>
+        <Row justify="center">
+          <Col md={12}>
+            <h2>3. Code review</h2>
+            <Card>
+              <p>
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
+              </p>
+            </Card>
+          </Col>
+        </Row>
+        <Row justify="center">
+          <Col md={12}>
+            <h2>3. Code maintanance</h2>
+            <Card>
+              <p>
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
+              </p>
+            </Card>
+          </Col>
+        </Row>
       </>
     );
   }
