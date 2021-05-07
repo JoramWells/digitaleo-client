@@ -1,12 +1,14 @@
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import HomeScreen from './components/home/HomeScreen';
 import NavBar from './components/menu/NavBar';
+import ScrollTop from './components/section/ScrollTop';
 import Services from './components/section/Services'
 import WebApplications from './components/section/WebApplications';
 
 function App() {
   return (
     <Router>
+      <ScrollTop />
       <NavBar/>
       <Switch>
         <Route path="/" exact component={HomeScreen} /> 
