@@ -13,7 +13,7 @@ export default function NavBar() {
     setVisible(false);
   }
   return (
-    <nav className="menu">
+    <nav className="menu" style={{backgroundColor:"#434343"}}>
       <div className="menu__logo">
         <Link to="/">Logo</Link>
       </div>

@@ -14,7 +14,7 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <>
-        <header style={{ padding: "1rem" }}>
+        <header style={{ padding: "1rem", backgroundColor:"#434343" }}>
           <h1 style={{ color: "rgb(40,44,53)", textAlign: "center" }}>
             Digitaleo, Inc
           </h1>
@@ -103,9 +103,11 @@ export default class HomeScreen extends Component {
                     eaque rerum! Provident similique accusantium nemo autem.
                     Veritatis obcaecati tenetur iure eius earum ut molestias
                     architecto voluptate aliquam nihil, eveniet aliquid culpa
-                    officia aut! Impedit sit sunt quaerat, odit <Link to="/website"> learn more
-                    <RightOutlined style={{ fontSize: ".6rem" }} />
-
+                    officia aut! Impedit sit sunt quaerat, odit{" "}
+                    <Link to="/website">
+                      {" "}
+                      learn more
+                      <RightOutlined style={{ fontSize: ".6rem" }} />
                     </Link>
                   </p>
                 </Card>
@@ -203,9 +205,7 @@ export default class HomeScreen extends Component {
               </p>
             </Row>
           </div>
-
         </main>
-
       </>
     );
   }

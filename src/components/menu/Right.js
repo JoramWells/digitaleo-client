@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const {SubMenu} = Menu
 export default function Right(props) {
     return (
-        <Menu mode={props.mode}>
+        <Menu mode={props.mode} style={{backgroundColor:"#434343"}}>
             <SubMenu title="Our products">
                 <Menu.Item style={{margin:"0"}}>
                     Mobile Apps
